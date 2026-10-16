@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/mdi.css">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="logo"><span class="mdi mdi-camera logo-icon"></span> <b>Print Agile</b></div>
+  <p class="desc">Passe o mouse nos elementos (borda vermelha), clique para salvar. Clique + arraste cria seta.</p>
+  <button id="btn-start"><span class="mdi mdi-play"></span> Iniciar fluxo de print</button>
+  <button id="btn-stop" class="ghost" style="display:none"><span class="mdi mdi-stop"></span> Parar / cancelar</button>
+  <div id="status">Pronto.</div>
+  <ol class="steps">
+    <li>Hover = borda vermelha</li>
+    <li>Clique = salva borda (vários)</li>
+    <li>Clique + arraste = seta</li>
+    <li><span class="mdi mdi-camera"></span> flutuante = capturar</li>
+  </ol>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
